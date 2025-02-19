@@ -97,23 +97,34 @@ Integration with a mobile wallet: as the platform grows we will also integrate t
 
 We will also continue to invest in and improve the Marketplace. It remains clear, in fact, that the one currently developed is an MVP version of the Marketplace, since, as is known, the costs to develop a full Marketplace is very expensive.
 
-Tech Stack
+**Tech Stack**
+
 Frontend 
+
 React
+
 Typescript
+
 Vite
+
 Qubic connect (metamask snap, walletconnect and ledger)
 
-Backend
+**Backend**
+
 Node.js
+
 Typescript
+
 REST API
 
 Database
+
 PostgreSQL
 
 Smart Contract
+
 Infrastructure
+
 AWS or Heroku
 
 **Team**
@@ -125,4 +136,5 @@ Poly: Smart Contract developer
 Serendipity: Frontend and Backend developer 
 
 **Conclusion**
+
 We believe that an NFT Marketplace is necessary to bridge the gap between Qubic, understood as an ecosystem, and the most famous and established blockchains. NFTs have the ability to attract that segment of more casual users, i.e. that user necessary to become mainstream. Furthermore, NFTs would also and above all pave the way for artists who would be pushed to create on an emerging ecosystem, creating new life and new possibilities for future developments. This is the opportunity to show to the crypto space the potential of our ecosystem!
