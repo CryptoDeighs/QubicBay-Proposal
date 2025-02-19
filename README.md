@@ -9,6 +9,7 @@ We have developed the first Smart Contract that will allow NFT technology to be 
 **Marketplace functionality**
 
 Functions Specifications
+
 The Smart contract contains all the necessary functions expected from a typical NFT Marketplace, which are: 
 
 mint
