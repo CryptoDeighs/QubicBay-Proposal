@@ -12,14 +12,23 @@ Functions Specifications
 The Smart contract contains all the necessary functions expected from a typical NFT Marketplace, which are: 
 
 mint
+
 buy
+
 sell
+
 transfer
+
 exchange
+
 auction
+
 floor price
+
 make an offer
+
 accept offer
+
 getting NFT info
 
 Thanks to this Smart Contract we will be able to launch an NFT Marketplace on Qubic tickchain, where users will be able to create/drop/mint NFTs/collections, buy/sell and trade NFTs.
