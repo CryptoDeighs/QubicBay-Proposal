@@ -12,25 +12,25 @@ We have developed the first Smart Contract that will allow NFT technology to be 
 
 The Smart contract contains all the necessary functions expected from a typical NFT Marketplace, which are: 
 
-mint
+- mint
 
-buy
+- buy
 
-sell
+- sell
 
-transfer
+- transfer
 
-exchange
+- exchange
 
-auction
+- auction
 
-floor price
+- floor price
 
-make an offer
+- make an offer
 
-accept offer
+- accept offer
 
-getting NFT info
+- getting NFT info
 
 Thanks to this Smart Contract we will be able to launch an NFT Marketplace on Qubic tickchain, where users will be able to create/drop/mint NFTs/collections, buy/sell and trade NFTs.
 
