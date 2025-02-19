@@ -102,37 +102,37 @@ We will also continue to invest in and improve the Marketplace. It remains clear
 
 **Frontend** 
 
-React
+- React
 
-Typescript
+- Typescript
 
-Vite
+- Vite
 
-Qubic connect (metamask snap, walletconnect and ledger)
+- Qubic connect (metamask snap, walletconnect and ledger)
 
 **Backend**
 
-Node.js
+- Node.js
 
-Typescript
+- Typescript
 
-REST API
+- REST API
 
 **Database**
 
-PostgreSQL
+- PostgreSQL
 
 **Smart Contract Infrastructure**
 
-AWS or Heroku
+- AWS or Heroku
 
 **Team**
 
-Pepito: Project leader and $CFB ideator 
+- Pepito: Project leader and $CFB ideator 
 
-Poly: Smart Contract developer 
+- Poly: Smart Contract developer 
 
-Serendipity: Frontend and Backend developer 
+- Serendipity: Frontend and Backend developer 
 
 **Conclusion**
 
