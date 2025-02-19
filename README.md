@@ -8,7 +8,7 @@ We have developed the first Smart Contract that will allow NFT technology to be 
 
 **Marketplace functionality**
 
-Functions Specifications
+**Functions Specifications**
 
 The Smart contract contains all the necessary functions expected from a typical NFT Marketplace, which are: 
 
@@ -85,7 +85,7 @@ Marketplace Features: Listings, offers, auctions
 
 **Smart Contract Integration:**
 
-Wallet Integration via Qubic connect (metamask, walletconnect and ledger  (as soon it is available)
+Wallet Integration via Qubic connect (metamask, walletconnect and ledger - as soon it is available)
 Secure transaction handling
  
 **SC Storage management**
@@ -100,7 +100,7 @@ We will also continue to invest in and improve the Marketplace. It remains clear
 
 **Tech Stack**
 
-Frontend 
+**Frontend** 
 
 React
 
@@ -118,13 +118,11 @@ Typescript
 
 REST API
 
-Database
+**Database**
 
 PostgreSQL
 
-Smart Contract
-
-Infrastructure
+**Smart Contract Infrastructure**
 
 AWS or Heroku
 
