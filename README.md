@@ -2,6 +2,12 @@
 
 **NFT MARKETPLACE PROPOSAL**
 
+Available Options:
+
+Option 0: No, I don’t want
+
+Option 1: Yes, approved the proposal.
+
 **Project Overview**
 
 We have developed the first Smart Contract that will allow NFT technology to be brought to Qubic tickchain. New blood, new users will be attracted by this possibility, creating greater interest and attention for the entire ecosystem.
