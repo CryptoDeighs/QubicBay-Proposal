@@ -65,6 +65,7 @@ On the other hand, $CFB will have a reserved exclusive function: the purchase of
 **What are packages?**
 
 Packages (slots) explained
+
 Whenever creators wants to launch a new collection of NFTs on our Marketplace, they will necessarily have to purchase a package of mintable NFTs (slots), the cost of which will vary based on the number of NFTs that will be part of the collection, i.e. for a collection of 1000 NFTs users will have to purchase a package worth 200 USDT of $CFB and so on up to a maximum of a package of 10,000 pieces of NFTs worth 2000 USDT in $CFB. 
  
 
