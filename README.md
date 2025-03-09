@@ -45,11 +45,11 @@ Thanks to this Smart Contract we will be able to launch an NFT Marketplace on Qu
 For each resale of NFTs on the secondary market, the Marketplace will retain a percentage of the total resale equal to 2.5%, which will be distributed as follows: 
 
 2% will be retained by the Marketplace to cover management costs and future developments
-0.5% will be sent to shareholders (check 'shareholder revenues' paragraph for more details)
+1% will be sent to shareholders (check 'shareholder revenues' paragraph for more details)
 
 **Shareholder revenues**
 
-Shareholders will receive as revenue 0.5% of all sales made on the secondary market, only and exclusively where the sale is made with $Qubic as the payment method. 
+Shareholders will receive as revenue 1% of all sales made on the secondary market, only and exclusively where the sale is made with $Qubic as the payment method. 
 If sales on the secondary market are paid with $CFB token, shareholders will not receive any percentage as revenues.
 
 **Coins/Tokens accepted on the Marketplace**
