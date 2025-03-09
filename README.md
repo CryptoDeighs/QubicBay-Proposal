@@ -6,7 +6,7 @@ Available Options:
 
 Option 0: No, I don’t want
 
-Option 1: Yes, approved the proposal.
+Option 1: Yes, approve the proposal.
 
 **Project Overview**
 
