@@ -259,7 +259,8 @@ REGISTER_USER_FUNCTION(getInfoOfCollectionById, 5);
 REGISTER_USER_FUNCTION(getIncomingAuctions, 6);
 REGISTER_USER_FUNCTION(getInfoOfNFTById, 7);
 REGISTER_USER_FUNCTION(getUserCreatedCollection, 8);
-REGISTER_USER_FUNCTION(getUserCreatedNFT , 9);```
+REGISTER_USER_FUNCTION(getUserCreatedNFT , 9);
+```
 
 These query functions required for frontend.
 
@@ -270,7 +271,8 @@ REGISTER_USER_FUNCTION(getInfoOfCollectionById, 5);
 REGISTER_USER_FUNCTION(getIncomingAuctions, 6);
 REGISTER_USER_FUNCTION(getInfoOfNFTById, 7);
 REGISTER_USER_FUNCTION(getUserCreatedCollection, 8);
-REGISTER_USER_FUNCTION(getUserCreatedNFT , 9);```
+REGISTER_USER_FUNCTION(getUserCreatedNFT , 9);
+```
 
 These query functions required for frontend.
 
