@@ -142,57 +142,57 @@ The implementation for collection is same with implementation of NFT. there is a
 
 All features in PFP MarketPlace
 
-settingCFBAndQubicPrice procedure
+`settingCFBAndQubicPrice` procedure
 
 The only Marketplace owner can set the price for Qubic and CFB. it will be expressed as the amount of Qubic and CFB for 1 USD;
 If other's try to use this procedure, it will be rejected by procedure.
 If the Qubic smart contract supports the connection with Oracles in the future, this procedure would be removed and the Oracles would be connected for price of Qubic and CFB.
 
-createCollection procedure
+`createCollection` procedure
 
 The user can create their collection. The CFB payment is only available to create the collection.
 When the user creates the collection, he can set the type of collection weither the collection is for own or Dropping NFTs.
 
-mint procedure
+`mint` procedure
 
 The user can mint the NFT in two option(minting a single NFT or a NFT using the collection). If user want to mint the NFT using his collection, he can mint the NFT without any fee, at this time, the creator and possessor of NFT should be creator of collection.
 If user want to mint the single NFT without his collection, he need to pay the 5M $Qubic in Marketplace.
 
-mintOfDrop procedure
+`mintOfDrop` procedure
 
 The user can mint the NFTs using the Drop collection.
 The user need to pay the fee(it will be set when the collection is created by the collection creator) to creator of collection. the creator of NFT would be creator of collection and the possessor would be the user who mint this NFT.
 
-transfer procedure
+`transfer` procedure
 
 The user can transfer their NFT to another user without fee.
 
-listInMarket procedure
+`listInMarket` procedure
 
 The user can list the NFT in the Market without fee when he want to sell the NFT. it means the status of sale is 1.
 The user will set the price for sale in the amount of Qubic.
 
-buy procedure
+`buy` procedure
 
 The user can buy the NFT if the status of sale for NFT is 1. the user can use the both of Qubic and CFB to pay the price of NFT.
 If the user selects the CFB to pay the price, the price will be converted and calculated as CFB.
 At this time, the fee will be distributed according to the set percent.
 
-cancelSale procedure
+`cancelSale` procedure
 
 The user can cancel the sale without fee.
 
-listInExchange procedure
+`listInExchange` procedure
 
 The user can list the NFT in the Exchange when he want to exchange his NFT with another NFT. it means that the status of another NFT(want to exchange) is 1;
 If the another user already asked to exchange with his NFT, the possessor of NFT will be converted each other.
 At this time, there is no fee.
 
-cancelExchange procedure
+`cancelExchange` procedure
 
 The user can cancel the status of exchange without fee. it means that the status of another NFT(wanted to exchange) is 0.
 
-makeOffer procedure
+`makeOffer` procedure
 
 The user can make the offer with the price(he want to buy) if he want to buy the NFT. the user can use the both of Qubic and CFB to pay the price of NFT. also the price should be sent to marketplace at first.
 If the user does not pay the price, the offer can not be made.
@@ -200,31 +200,31 @@ If another user make the offer with high price, the askUser and price will be ch
 the user need to make in high price additional QBAY_MIN_DELTA_SIZE over than previous user.
 The payment for previous user will be transferred to previous user.
 
-acceptOffer procedure
+`acceptOffer` procedure
 
 If the user want to sell to the user who made the offer, the user can accept the offer.
 
-cancelOffer procedure
+`cancelOffer` procedure
 
 If user want to cancel the Offer, he can use this proceudure. at this time, the paid amount of user who made the offer will be transferred to user who made the offer.
 
-createTraditionalAuction procedure
+`createTraditionalAuction` procedure
 
 The user can create the auction. user need to set the method of payment for price($Qubic or $CFB). Other users must bid in set mothed of payment.
 The start and end time will be decided by creator of auction.
 
-bidOnTraditionalAuction procedure
+`bidOnTraditionalAuction` procedure
 
 The users can bid in auction. the user need to bid in high price additional QBAY_MIN_DELTA_SIZE over than previous user.
 The possessor of NFT will be changed whenever the user succeed in bid and the previous user receives the paid amount. and also the fee will be distributed reasonablly.
 
-changeStatusOfMarketPlace procedure
+`changeStatusOfMarketPlace` procedure
 
 Marketplace owner need to change the status of market. The users can create the collection and mint the NFT after marketplace owner changes the status as 1.
 Marketplace owner want to create hie collection and NFT before other user creates the collection and NFT usint this smart contract.
 So other users can create the collection and mint the NFT after marketplace owner changes the status of marketplace.
 
-END_EPOCH procedure
+`END_EPOCH` procedure
 
 All earnings will transfer at the end of epoch by this procedure.
 
@@ -234,7 +234,7 @@ If he want to do other action regarding trasferring the NFT, he need to cancel t
 
 Fee
 
-constexpr uint32 QBAY_FEE_COLLECTION_CREATE_201_1000 = 200;
+```constexpr uint32 QBAY_FEE_COLLECTION_CREATE_201_1000 = 200;
 constexpr uint32 QBAY_FEE_COLLECTION_CREATE_1001_2000 = 400;
 constexpr uint32 QBAY_FEE_COLLECTION_CREATE_2001_3000 = 600;
 constexpr uint32 QBAY_FEE_COLLECTION_CREATE_3001_4000 = 800;
@@ -251,7 +251,7 @@ The shareHolders fee will be calculated for only $Qubic payment. There is no sha
 
 Query functions
 
-REGISTER_USER_FUNCTION(getInfoOfNFTUserPossessed, 2);
+```REGISTER_USER_FUNCTION(getInfoOfNFTUserPossessed, 2);
 REGISTER_USER_FUNCTION(getInfoOfMarketplace, 3);
 REGISTER_USER_FUNCTION(getInfoOfCollectionByCreator, 4);
 REGISTER_USER_FUNCTION(getInfoOfCollectionById, 5);
@@ -262,7 +262,7 @@ REGISTER_USER_FUNCTION(getUserCreatedNFT , 9);```
 
 These query functions required for frontend.
 
-REGISTER_USER_FUNCTION(getInfoOfNFTUserPossessed, 2);
+```REGISTER_USER_FUNCTION(getInfoOfNFTUserPossessed, 2);
 REGISTER_USER_FUNCTION(getInfoOfMarketplace, 3);
 REGISTER_USER_FUNCTION(getInfoOfCollectionByCreator, 4);
 REGISTER_USER_FUNCTION(getInfoOfCollectionById, 5);
