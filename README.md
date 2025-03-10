@@ -127,7 +127,8 @@ struct InfoOfNFT
   bit statusOfAsk;		     // Status of Ask
   bit paymentMethodOfAsk;		     // 0 means the asked user want to buy using $Qubic, 1 means that want to buy using $CFB
   bit statusOfExchange;		     // Status of Exchange
-  bit paymentMethodOfAuction;	     // 0 means the user can buy using only $Qubic, 1 means that can buy using only $CFB ```
+  bit paymentMethodOfAuction;	     // 0 means the user can buy using only $Qubic, 1 means that can buy using only $CFB
+```
 
   };
 
