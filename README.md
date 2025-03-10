@@ -246,7 +246,8 @@ constexpr uint32 QBAY_FEE_COLLECTION_CREATE_7001_8000 = 1600;
 constexpr uint32 QBAY_FEE_COLLECTION_CREATE_8001_9000 = 1800;
 constexpr uint32 QBAY_FEE_COLLECTION_CREATE_9001_10000 = 2000;
 constexpr uint32 QBAY_FEE_NFT_SALE_MARKET = 20;
-constexpr uint32 QBAY_FEE_NFT_SALE_SHAREHOLDERS = 10;```
+constexpr uint32 QBAY_FEE_NFT_SALE_SHAREHOLDERS = 10;
+```
 
 The shareHolders fee will be calculated for only $Qubic payment. There is no shareHolders fee in payment for $CFB.
 
